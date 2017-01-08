@@ -1,0 +1,29 @@
+<html>
+<head>
+  
+</head>
+<body>
+
+
+<script>
+ var speedlimit = 55;
+ 
+ function amispeeding (speed) {
+ if (speed >= speedlimit) {
+ alert ("yes you are speeding.");
+ 
+ } else {
+ 
+ alert ("no you are not speeding. whats wrong with you?");
+ 
+ 
+   }
+
+ }
+ 
+ amispeeding(53); 
+ amispeeding(72);
+  </script>
+
+</body>
+</html>
