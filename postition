@@ -1,0 +1,32 @@
+<html>
+<head>
+  
+</head>
+<body>
+
+
+<script>
+ var xpos = 300;
+ var ypos = 150;
+ 
+ function sendwarning(x, y) { 
+ 
+ if ((x < xpos) && (y < ypos)) { 
+ alert ("adjust your postition");
+ 
+ } else {
+ 
+ alert ("things are fine!");
+ 
+ 
+   }
+
+ }
+ 
+ sendwarning(500,160);
+ sendwarning(100,100);
+ sendwarning(201,149); 
+  </script>
+
+</body>
+</html>
